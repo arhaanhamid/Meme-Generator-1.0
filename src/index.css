@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: 'Karla';
+  background-color: grey;
+}
+
+/*########## HEADER CSS ##########*/
+.div-header{
+  background: linear-gradient(90deg, purple 25%, #a739cf 75%);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  height: 50px;
+
+  color: white;
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.div-headerImg{
+  height: 30px;
+}
+
+.div-headerInfo{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.div-headerLogo{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/*########## HEADER CSS ##########*/
+
+/*########## GENERATOR CSS ##########*/
+
+.div-generator-holder{
+  display: flex;
+  justify-content: center;
+}
+.div-generator{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.generator-content{ 
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 20px; 
+  margin-top:30px; 
+}
+
+.generator > input{ 
+  font-family: 'Karla';
+  border-radius: 5px;
+  text-indent: 5px;
+  border: 2px solid grey;
+}
+
+.generator-button{
+  font-family: 'Karla';
+  font-weight: 700;
+  border-radius: 5px;
+  background: linear-gradient(90deg, purple 25%, #a739cf 75%);
+  grid-column: 1 /-1;
+
+  color: white;
+  border: hidden;
+  cursor: pointer;
+}
+
+/*########## GENERATOR CSS ##########*/
+
+/*########## MEME CSS ##########*/
+.meme{
+  background-color: black;
+  position: relative;
+  margin-top: 30px;
+}
+.meme-image{
+  width: 100%;  
+}
+.meme-text{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+.top{
+  top: 0;
+}
+.bottom{
+  bottom: 0;
+}
+
+/*########## MEME CSS ##########*/
